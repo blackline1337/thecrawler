@@ -48,19 +48,19 @@ The Crawler is an asynchronous web crawler using `aiohttp`. It extracts links fr
 
 ## Examples
 
-Crawl with a random user agent.
+1. Crawl with a random user agent.
 
     ```bash
     admin@blacklinecyber:~$ python main.py -t blacklinecyber.org -ra 
     ```
 
-Crawl and save the output to a file.
+2. Crawl and save the output to a file.
 
     ```bash
     admin@blacklinecyber:~$ python main.py -t blacklinecyber.org -o output.txt
     ```
 
-Crawl and show results with a filter for example '?', '.php'.
+3. Crawl and show results with a filter for example '?', '.php'.
 
     ```bash
     admin@blacklinecyber:~$ python main.py -t blacklinecyber.org -ff filter.txt
