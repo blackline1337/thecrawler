@@ -2,7 +2,7 @@
 
 ## Description
 
-The Python script is an asynchronous web crawler using `aiohttp`. It extracts links from web pages, allowing users to specify target URLs, input/output files, filter conditions, and use a random user agent. The script is versatile, featuring functions for asynchronous HTTP requests, link extraction, filtering, and result saving. With a concise command-line interface, it provides flexibility for various web crawling tasks, including link filtering and random user agent rotation.
+The Crawler is an asynchronous web crawler using `aiohttp`. It extracts links from web pages, allowing users to specify target URLs, input/output files, filter conditions, and use a random user agent. The script is versatile, featuring functions for asynchronous HTTP requests, link extraction, filtering, and result saving. With a concise command-line interface, it provides flexibility for various web crawling tasks, including link filtering and random user agent rotation.
 
 ## Installation
 
